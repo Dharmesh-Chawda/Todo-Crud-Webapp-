@@ -4,9 +4,10 @@ $db = new Mysqli;
 
 $db->connect('localhost','root','','crud');
 
-if(!$db){
+if(!$db)
+{
 
 	echo "success";
-}   
+}  
 
- ?>
+?>
